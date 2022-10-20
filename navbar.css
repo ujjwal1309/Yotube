@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#navbar > div {
+  margin: 10px 0;
+}
+
+#navbar > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#navbar > div:nth-child(2) {
+  display: flex;
+}
+
+#navbar > div:nth-child(2) > i {
+  width: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#navbar > div:nth-child(2) > i:hover {
+  background-color: rgba(0, 0, 0, 0.489);
+}
+
+#search_movies {
+  cursor: pointer;
+}
+
+.srch {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.srch i {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+}
+
+.srch input {
+  border: none;
+  width: 400px;
+  padding: 0 0 0 10px;
+}
+
+.srch input:focus {
+  outline: none;
+}
+
+.srch input::placeholder {
+  height: 80px;
+}
+
+#navbar > div > img {
+  height: 30px;
+}
+
+#navbar > div:nth-child(3) button {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid rgb(0, 128, 255);
+  color: rgb(0, 128, 255);
+  cursor: pointer;
+}
+
+#navbar > div:nth-child(3) button i {
+  font-size: 25px;
+}
+
+#home{
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#sort_section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 50px auto;
+}
+
+#container > div {
+  cursor: pointer;
+}
+
+#container > div > img {
+  width: 100%;
+}
